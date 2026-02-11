@@ -5116,7 +5116,7 @@ export default function HomePage() {
                     value={loginOtp}
                     onChange={(e) => setLoginOtp(e.target.value)}
                     disabled={loginLoading}
-                    maxLength={6}
+                    maxLength={12}
                   />
                 </div>
               )}
